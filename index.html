@@ -1,29 +1,28 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Mijn website</title>
-		<meta name="description" content="Mijn website met mijn projecten.">
-		<meta name="author" content="jouwnaam">
-	
-		<link rel="stylesheet" href="/css/style.css">
-		<!--<script defer type="text/javascript" src="js/main.js"></script>-->
-	</head>
-	
-	<body>
-		<header>dit is mijn eerste website</header>
-        <main>tevreden? ik hoop het maar.</main>
-		<main><img src="https://100procenttevreden.nl/wp-content/uploads/2018/02/100-Tevreden.jpg" alt="100% Tevreden projectmanagement HR Finance IT oplossingen" /><main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <title>Flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <label for="school">Ik zit op school</label>
+        <input type="checkbox" id="school" name="school" value="school">
+    
+        <label for="birthday">Verjaardag:</label>
+        <input type="date" id="birthday" name="birthday">
 
-            <form>
-                <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username" value="Username"><br>
-                <label for="password">Password:</label><br>
-                <input type="text" id="password" name="password" value="Password"><br><br>
-                <input type="submit" value="Submit">
-              </form> 
+        <label for="quantity">Nummer (tussen 1 en 100):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
 
-		<main>je hebt het einde van de website bereikt.</main>
-		<footer>einde</footer>
+        <label for="pwd">Wachtwoord:</label>
+        <input type="password" id="pwd" name="pwd">
+
+        <label for="points">Punten (tussen 0 en 10):</label>
+        <input type="range" id="points" name="points" min="0" max="10"> 
+    </div>
 </body>
 </html>
-
